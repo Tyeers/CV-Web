@@ -1,0 +1,71 @@
+/*seluruh margin 0, bg warna hitam, font family: Trebuchet MS, warna font: putih*/
+* {
+    margin: 0;
+    background-color: rgb(0, 0, 0) ;
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+/*agar float right dan agar gambar tidak dipojok kanan*/
+.name {
+    margin-top: 15rem;
+    margin-right: 5rem;
+    float: right;
+    font-size: 2.6rem;
+}
+
+/*agar hr sebesar 6px, garisnya solid dan warnanya putih*/
+.name hr {
+    border-top: 6px solid white;
+    margin-top: 1rem;
+}
+
+/*agar gambar tidak terlalu mepet dengan hr dan lebar gambar mengikuti tinggi*/
+.name img {
+    margin-top: 5px;
+    width: auto;
+    height: 3.5rem;
+}
+
+/*clear float, seluruh paddingL: 10px, seluruh margin margin: 3rem*/
+.nav {
+    clear: both;
+    padding: 10px;
+    margin: 3rem;
+}
+
+/*list style: none agar tidak ada dot*/
+.nav ul {
+    list-style: none;
+    width: 10px;
+}
+
+/*posisi bisa diubah seenaknya, lebar mengikuti tinggi img*/
+.nav li img {
+    position: relative;
+    width: auto;
+    height: 3rem;
+    margin: 2rem;
+    bottom: 28rem;
+    right: 5rem;
+}
+
+/*jika hover, maka akan mengurangi opacity menjadi 0.6*/
+.nav li:hover {
+    opacity: 0.6;
+}
+
+/*membuat box*/
+.nav li a {
+    display: block;
+}
+
+/*Lebar mengikuti tinggi, float left, mengubag agar tidak di pojok kiri dan gambar tidak tajam ujungnya*/
+.my-img img {
+    width: auto;
+    height: 30rem;
+    float: left;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    border-radius: 10%;
+}
